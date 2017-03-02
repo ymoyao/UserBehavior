@@ -117,7 +117,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             
             MobClick.event(id, label: logFlag)
-            print(id!)
+
             print(logFlag)
         }
         

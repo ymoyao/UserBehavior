@@ -10,13 +10,13 @@ import UIKit
 
 class AViewController: RootViewController {
 
-    override func viewWillAppear(_ animated: Bool) {
-        MobClick.beginLogPageView("falgA")
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        MobClick.endLogPageView("falgA")
-    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        MobClick.beginLogPageView("falgA")
+//    }
+//    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        MobClick.endLogPageView("falgA")
+//    }
     
     
     override func viewDidLoad() {
@@ -38,9 +38,7 @@ class AViewController: RootViewController {
     }
     
     
-    func btnClick() {
-        MobClick.event("Id_A", label: "点击跳转到B")
-        
+    func btnClick() {        
         print("点击了 \("点击跳转到B") 按钮")
         let vc = BViewController()
         self.navigationController?.pushViewController(vc, animated: true)

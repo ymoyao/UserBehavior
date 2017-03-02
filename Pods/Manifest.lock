@@ -1,0 +1,15 @@
+PODS:
+  - Aspects (1.4.1)
+  - UMengAnalytics-NO-IDFA (4.0.5)
+
+DEPENDENCIES:
+  - Aspects (~> 1.4.1)
+  - UMengAnalytics-NO-IDFA (~> 4.0.5)
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  UMengAnalytics-NO-IDFA: 965a219b05475ff2a4c09a164139a27bbaa0e25b
+
+PODFILE CHECKSUM: b8fc5759ca481e9fd6f536f1597964f97c4c5c57
+
+COCOAPODS: 1.2.0
